@@ -1,0 +1,21 @@
+big O = max time
+big Ω (omega) = min time
+big Θ (theta) = any int in range(min time: max time)
+
+Time complexity:
+            O(1) - Constant - Accessing first or last element in array
+            O(N) - Linear - Loop through every array element
+            O(LogN) - Logarithmic - Find element in sorted array (search only through some elements)
+            O(N^2) - Quadratic - Comparing ALL array elements to ALL array elements (loop in loop)
+            O(2^N) - Exponential - Double recursion in Fibonacci
+
+Space complexity:
+            O(1): simple return x
+            O(n): recursion
+
+DROP CONSTANTS AND NON DOMINANT TERMS:
+            (ex. O(N + LogN) = O(N))
+            Drops noise
+            Makes it easier to compare
+
+*Looping through two separate arrays is still O(N)
