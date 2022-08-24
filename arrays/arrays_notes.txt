@@ -1,0 +1,16 @@
+One dimensional array: [5, 4, 3, 10, 34]
+array[2] = 3
+
+Two dimensional array: [[5, 10, 3], [12, 3, 9]]
+array[0][1] = 10
+
+Three dimensional array: [[['#', '#', '#'], ['#', '#', '#'], ['#', '#', '#']],
+                         [['#', '#', '#'], ['#', '#', '#'], ['#', '#', '#']],
+                         [['#', '#', '#'], ['#', '#', '#'], ['#', '#', '#']]]
+array[0][1][2] = #
+
+---
+
+Array is being put into Random Access Memory in any location.
+Array's cells are contiguous.
+Multidimensional arrays are put into RAM in line's shape, contigously.
