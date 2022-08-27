@@ -1,0 +1,16 @@
+Dictionary = [unordered, changeable, indexed]
+
+{key: value}
+
+index = keys - don't have to be integer. Can be any type.
+
+Dictionaries:
+             can be seen as associative arrays,
+             use hash tables = key-value lookups,
+             values are stored in arrays,
+             [keys, arrays, hash_function]
+
+collusion: when different elements get placed on same index.
+           fix: they get put there as linked list.
+
+
