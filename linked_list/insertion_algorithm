@@ -1,0 +1,24 @@
+Node(value, location):
+
+    if head == None:
+        [head, tail] = node
+
+    elif head != None:
+
+        if location == first:
+
+            node.next = head
+            head = node
+
+        elif location != first:
+
+            if location == last:
+
+                node.next = null
+                last.next = node
+                tail = node
+
+            elif location != last:
+                find location through loop
+                current.next = node
+                node.next = next_node
