@@ -1,0 +1,7 @@
+Last node points to the first node.
+
+Creation of circulal SLL with one node:
+    Create blank node:
+        node.next = node
+        head = node
+        tail = node
